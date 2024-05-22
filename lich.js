@@ -4,7 +4,7 @@ author:'el',
 desc:'A simple mod to make the game easier.',
 engineVersion:1,
 manifest:'modManifest.js',
-requires:[],
+requires:['Default dataset*'],
 sheets:{'elSheet':'https://github.com/that-elliott/lich-mod.git'},//custom stylesheet (note : broken in IE and Edge for the time being)
 func:function()
 {
